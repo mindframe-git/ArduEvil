@@ -86,7 +86,7 @@ void setup() {
   Keyboard.write(0xB0);
 
   //Close the window
-  //Keyboard.write("exit");
+  Keyboard.write("exit");
 }
 
 void loop() {
